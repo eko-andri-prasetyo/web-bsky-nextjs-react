@@ -1,27 +1,19 @@
-# BSKY Teknik - Next.js + React
+# BSKY Teknik - Next.js Rebuild
 
-Website company profile responsif yang siap dideploy ke Vercel.
+Website company profile Next.js + React, dibuat ulang dari referensi desain BSKY Teknik dan siap deploy ke Vercel.
 
 ## Jalankan lokal
-
 ```bash
 npm install
 npm run dev
 ```
 
-Buka: http://localhost:3000
+## Build
+```bash
+npm run build
+```
 
 ## Deploy ke Vercel
+Import repository GitHub ke Vercel. Framework akan otomatis terdeteksi sebagai Next.js.
 
-1. Upload folder ini ke GitHub.
-2. Login ke https://vercel.com.
-3. Klik **Add New Project**.
-4. Pilih repository project ini.
-5. Framework otomatis terdeteksi **Next.js**.
-6. Klik **Deploy**.
-
-## Struktur penting
-
-- `app/page.jsx` = halaman utama
-- `app/globals.css` = styling utama
-- `public/` = gambar SVG lokal
+Catatan: gambar sudah dipisah menjadi asset di `public/images`, bukan menampilkan satu screenshot penuh.
