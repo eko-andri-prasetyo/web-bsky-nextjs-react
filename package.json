@@ -1,4 +1,7 @@
 {
+  "name": "bsky-teknik-company-profile",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -6,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.5.7",
-    "react": "19.1.2",
-    "react-dom": "19.1.2",
-    "lucide-react": "^0.468.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
   },
   "devDependencies": {}
 }

@@ -1,0 +1,10 @@
+<svg width="740" height="260" viewBox="0 0 740 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="740" height="260" rx="18" fill="#eef3f6"/>
+  <path d="M0 64H740M0 128H740M0 192H740M92 0V260M184 0V260M276 0V260M368 0V260M460 0V260M552 0V260M644 0V260" stroke="#dbe5ec" stroke-width="2"/>
+  <path d="M0 210C110 182 154 110 260 124C388 140 420 70 548 74C630 77 676 116 740 108" stroke="#c9d8e3" stroke-width="16" stroke-linecap="round"/>
+  <path d="M-15 62C96 80 184 92 250 64C344 24 444 42 512 92C598 154 676 174 754 132" stroke="#d7e2ea" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="430" cy="114" r="13" fill="#f16419"/>
+  <path d="M430 52C398 52 373 77 373 109C373 152 430 209 430 209C430 209 487 152 487 109C487 77 462 52 430 52ZM430 130C418 130 408 120 408 108C408 96 418 86 430 86C442 86 452 96 452 108C452 120 442 130 430 130Z" fill="#e95413"/>
+  <text x="470" y="103" fill="#0b2235" font-family="Arial, sans-serif" font-size="26" font-weight="700">BSKY Teknik</text>
+  <text x="470" y="135" fill="#33485b" font-family="Arial, sans-serif" font-size="20">Workshop &amp; Kantor</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071421"/>
+      <stop offset="0.45" stop-color="#0c2032"/>
+      <stop offset="1" stop-color="#091625"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(705 248) rotate(80) scale(460 520)">
+      <stop stop-color="#ff7a19" stop-opacity="0.45"/>
+      <stop offset="0.36" stop-color="#ff7a19" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#0a1725" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d8e2ed" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#5b6d7d" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="760" fill="url(#bg)"/>
+  <rect width="1600" height="760" fill="url(#glow)"/>
+  <g opacity="0.28" filter="url(#blur)">
+    <rect x="156" y="88" width="96" height="520" fill="#142c42"/>
+    <rect x="300" y="44" width="46" height="590" fill="#1c3850"/>
+    <rect x="1010" y="66" width="56" height="600" fill="#162f45"/>
+    <rect x="1117" y="116" width="84" height="488" fill="#123149"/>
+    <rect x="85" y="170" width="1260" height="20" fill="#24384b"/>
+    <rect x="55" y="442" width="1220" height="12" fill="#24384b"/>
+  </g>
+  <g opacity="0.32" stroke="#5e7488" stroke-width="2">
+    <path d="M92 620H1220"/>
+    <path d="M92 652H1330"/>
+    <path d="M210 190V645"/>
+    <path d="M605 112V645"/>
+    <path d="M870 90V652"/>
+    <path d="M1160 140V652"/>
+  </g>
+  <g transform="translate(580 92)">
+    <rect x="0" y="378" width="460" height="44" rx="8" fill="#172333" stroke="#33495e"/>
+    <rect x="54" y="150" width="190" height="230" rx="12" fill="#e55d0f"/>
+    <rect x="74" y="174" width="150" height="58" rx="6" fill="#162535" opacity="0.85"/>
+    <circle cx="110" cy="282" r="30" fill="#0a1621" stroke="#263a50" stroke-width="5"/>
+    <circle cx="188" cy="282" r="30" fill="#0a1621" stroke="#263a50" stroke-width="5"/>
+    <rect x="92" y="72" width="33" height="86" rx="8" fill="#566a7d"/>
+    <rect x="172" y="48" width="33" height="110" rx="8" fill="#566a7d"/>
+    <path d="M108 72V8M188 48V-12" stroke="#75879a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M244 172H375V375" stroke="#5c7083" stroke-width="16" stroke-linecap="round"/>
+    <path d="M284 210H430V375" stroke="#e55d0f" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="398" cy="380" r="33" fill="#0a1621" stroke="#263a50" stroke-width="5"/>
+    <rect x="37" y="420" width="60" height="118" rx="4" fill="#182b3e"/>
+    <rect x="374" y="420" width="60" height="118" rx="4" fill="#182b3e"/>
+  </g>
+  <g transform="translate(1030 58)">
+    <ellipse cx="196" cy="624" rx="310" ry="40" fill="#020914" opacity="0.45"/>
+    <path d="M110 258C104 194 140 132 205 126C273 120 327 171 330 244L345 625H88L110 258Z" fill="#142738"/>
+    <path d="M124 272C144 330 298 330 320 274L344 625H90L124 272Z" fill="#172e43"/>
+    <path d="M112 260C154 305 288 305 330 260" stroke="#274158" stroke-width="10"/>
+    <path d="M117 140C144 79 269 72 312 136C324 154 335 180 340 210H92C96 185 104 160 117 140Z" fill="#eef4f8"/>
+    <path d="M86 209C104 188 334 188 354 209C360 216 355 229 343 229H98C86 229 80 217 86 209Z" fill="#dce7ed"/>
+    <path d="M170 132V86M220 119V70M270 133V88" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+    <path d="M154 358H277" stroke="#e8eef4" stroke-width="6" opacity="0.8"/>
+    <path d="M160 382H268" stroke="#e8eef4" stroke-width="4" opacity="0.7"/>
+    <text x="150" y="345" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#e9f1f8" letter-spacing="3">BSKY</text>
+    <text x="198" y="384" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#e9f1f8" letter-spacing="6">TEKNIK</text>
+  </g>
+  <rect x="0" y="0" width="1600" height="760" fill="#000" opacity="0.08"/>
+</svg>

@@ -1,19 +1,33 @@
-# BSKY Teknik - Next.js Rebuild
+# BSKY Teknik Company Profile - Next.js + React
 
-Website company profile Next.js + React, dibuat ulang dari referensi desain BSKY Teknik dan siap deploy ke Vercel.
+Website company profile statis berbasis Next.js App Router + React. Desain dibuat ulang dari referensi gambar dengan layout high-resolution, responsive, dan aset SVG vector agar tajam di layar besar.
 
 ## Jalankan lokal
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
-```bash
-npm run build
-```
+Buka: http://localhost:3000
 
 ## Deploy ke Vercel
-Import repository GitHub ke Vercel. Framework akan otomatis terdeteksi sebagai Next.js.
 
-Catatan: gambar sudah dipisah menjadi asset di `public/images`, bukan menampilkan satu screenshot penuh.
+1. Push folder ini ke GitHub.
+2. Masuk ke Vercel.
+3. Add New Project.
+4. Import repository.
+5. Framework akan terdeteksi sebagai Next.js.
+6. Klik Deploy.
+
+## Struktur penting
+
+- `app/page.jsx` halaman utama.
+- `app/globals.css` styling global.
+- `public/assets/` aset SVG vector.
+
+## Catatan edit cepat
+
+- Nomor WhatsApp: ubah variabel `whatsappUrl` di `app/page.jsx`.
+- Alamat/kontak: ubah data pada bagian footer di `app/page.jsx`.
+- Produk/layanan: ubah array `serviceCards`, `businessLines`, dan `products`.
