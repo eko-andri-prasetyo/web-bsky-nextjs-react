@@ -1,8 +1,8 @@
-import './globals.css';
+import "./globals.css";
 
 export const metadata = {
-  title: 'BSKY Teknik - Solusi Teknik Terpadu',
-  description: 'Company profile BSKY Teknik untuk layanan geotech, software house, dan solusi komunikasi.',
+  title: "BSKY Teknik - Solusi Teknik Terpadu",
+  description: "Company profile BSKY Teknik"
 };
 
 export default function RootLayout({ children }) {
